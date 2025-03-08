@@ -92,7 +92,9 @@ h6 {
 .prose li {
   margin-bottom: 0.5em;
 }
-
+body {
+  background-color: #fdf6ec;
+}
 .prose blockquote {
   border-left: 2px solid #e5e5e5;
   padding-left: 1em;
