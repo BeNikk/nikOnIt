@@ -3,7 +3,7 @@ import { notFound } from "next/navigation"
 import { getAllPosts, getPostBySlug } from "@/lib/posts"
 import type { Metadata } from "next"
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params:any}) {
   const post = await getPostBySlug(params.slug)
 
   if (!post) {
