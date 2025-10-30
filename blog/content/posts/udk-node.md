@@ -82,3 +82,17 @@ that event loop is running on a single server. In case we of cpu intensive thing
 
 The thread can be controlled by us. 
 In other languages, there is no concept of event loop. Each request is served by a separate thread.
+
+
+Basics (in case we forget)
+We have an event queue where each request is pushed in the queue.
+Event loop keeps a watch on the event queue, and it takes the requests from the queue. 
+
+The request might be of two types
+- Blocking
+- Non blocking 
+
+If the request is non blocking, it will just resolve the request and return the response. 
+In case the request is a blocking operation, we go to the thread pool, make the worker perform. 
+It processes the request and returns it back 
+
