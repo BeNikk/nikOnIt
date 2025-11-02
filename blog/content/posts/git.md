@@ -28,4 +28,6 @@ Moving on to the stuff which devs must know, would help
 Suppose I start to work on a branch, and I  create commits in those branch and now i want to merge the branch into my main branch
 - git merge <createdBranchName>-> this will combine all the commits of the createdBranch in 1, and then it will just commit to the main branch after we checkout to the main
 
-
+Remote url is the repository which we own on github and we want to push/pull to/from.
+When we fork a project from github, the original project's url is called the upstream thing.
+We cannot push to upstream url, so we always make our own copy, push from their, and then create what is called as a Pull request. 
