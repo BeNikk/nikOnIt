@@ -1,6 +1,6 @@
 ---
 title: "I don't know branches"
-date: "2025-2-11"
+date: "2025-11-2"
 excerpt: "Git"
 ---
 
